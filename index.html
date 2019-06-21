@@ -3,35 +3,154 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Simon</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <title>Ermias Negash</title>
+
+  <!--FavIcon ADD -->
+  <link rel="icon" href="Favicon/favicon.ico">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Montserrat:400,900|Roboto+Mono&display=swap" rel="stylesheet">
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
-  <div class="container">
-    <div class="row">
 
-      <div type="button" id="green" class="btn green"></div>
+  <section id="title">
+    <div class="container-fluid">
 
-      <div type="button" id="red" class="btn red"></div>
+      <!--Title: Navigation Bar-->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href=""></a>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <!--ADD LINK TO BIO PORTION OF PAGE-->
+              <a class="nav-link" href="#profile">About</a>
+            </li>
+            <li class="nav-item">
+              <!--ADD LINK TO BIO PORTION OF PAGE-->
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Title: Header Information -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="override-bootstrap">iOS/Web Developer</h2>
+          <p>iOS application and front end developer. Focusing on writing clean, simple and efficient code.</p>
+        </div>
+        <div class="col-md-4">
+          <h1 class="override-bootstrap">ERMIAS NEGASH</h1>
+        </div>
+        <div class="col-md-4">
+          <h2 class="override-bootstrap">UI/UX Designer</h2>
+          <p>Designer working to create a functional and beautiful user experience.</p>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="row">
-
-      <div type="button" id="yellow" class="btn yellow"></div>
-
-      <div type="button" id="blue" class="btn blue"></div>
-
-
+  <!-- About -->
+  <section id="profile">
+    <div class="about-me">
+      <img class="self-image" src="images/california.png" alt="vacation-img">
+      <h2 class="me">About Me</h2>
+      <p class="intro">I'm a California based developer who for the last 4+ years has been employed as a Batch developer. In my free time I design and create web and iOS applications. I focus on designing & creating a clean & user-friendly
+        experience.</p>
     </div>
+  </section>
 
-  </div>
+  <hr>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="game.js" charset="utf-8"></script>
+  <!-- Skills-->
+  <section id="skills">
+    <div class="my-skills">
+      <h2 class="skills-title">Skill Set</h2>
+      <div class="skill-row">
+        <img class="web-design" src="images/web.png" alt="web-img">
+        <h3 class="me">Web Developer</h3>
+        <p class="skill-description">Building and refining my web design and front-end developer skills to a semi-proficient level. Building the necessary skills to create and design a seamless user experience.</p>
+      </div>
+      <div class="skill-row">
+        <img class="ios-design" src="images/iOS.png" alt="ios-img">
+        <h3 class="me">iOS Developer</h3>
+        <p class="skill-description">Building applications for iOS powered mobile devices. Utilizing current technologies I strive to design and develop engaging applications.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--  <hr> -->
+
+  <!--Carousel w/ buttons-->
+  <section id="testimonials">
+    <h2 class="testimonial-text">View My Work</h2>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="15000" data-pause="hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://eanegash.github.io/cv/">
+            <img class="testimonial-img" src="images/my-webpage.png" alt="page-profile">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://eanegash.github.io/simon-webpage/">
+            <img class="testimonial-img" src="images/simon.png" alt="second-profile">
+          </a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <!--  <hr> -->
+
+  <section id="cta">
+    <div class="action-call">
+      <a class="cta-link" href="https://www.linkedin.com/in/ermias-negash-56840145">LinkedIn</a>
+      <a class="cta-link" href="https://eanegash.github.io/cv/">GitHub</a>
+    </div>
+  </section>
+
+  <!--Footer -->
+  <footer id="footer">
+    <i class="social-icon fab fa-twitter-square"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fab fa-snapchat-square"></i>
+    <i class="social-icon fab fa-facebook-square"></i>
+    <p class="copyright">© 2019 Ermias Negash.</p>
+  </footer>
 
 </body>
 
