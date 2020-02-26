@@ -123,11 +123,11 @@ hr {
 /* Carousel - Work Examples */
 #testimonials {
   padding: 7% 15%;
-  background-color: #EEEEEE;
+  background-color: #f3d4d4;
 }
 
 .testimonial-img {
-  width: 90%;
+  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
